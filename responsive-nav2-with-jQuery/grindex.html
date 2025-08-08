@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photography Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: url('your-hero-image.jpg') center/cover no-repeat;
+      color: white;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .portfolio-grid img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>John Doe Photography</h1>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a freelance photographer specializing in landscapes, portraits, and creative storytelling through imagery. This portfolio showcases some of my favorite work.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <img src="photo1.jpg" alt="Sample Photo 1">
+      <img src="photo2.jpg" alt="Sample Photo 2">
+      <img src="photo3.jpg" alt="Sample Photo 3">
+      <img src="photo4.jpg" alt="Sample Photo 4">
+      <!-- Add more photos as needed -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>For bookings or inquiries, please email me at <a href="mailto:john@example.com">john@example.com</a>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 John Doe Photography</p>
+  </footer>
+
+</body>
+</html>
