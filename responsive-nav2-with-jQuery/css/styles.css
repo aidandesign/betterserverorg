@@ -1,0 +1,118 @@
+body {
+	font-size: 100%;
+	margin: 0 0 1% 0;
+    background-color: #e8c2e9;
+}
+h1 {
+	font-size: 2.5em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: rgb(0, 129, 32);
+	text-align: center;
+	font-weight: bold;
+    margin: 5% 0 3% 0;
+}
+h2 {
+	font-size: 1.7em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: rgb(0, 129, 32);
+	text-align: center;
+    line-height: 24pt;
+}
+h3 {
+	font-size: 1.2em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: rgb(0, 212, 53);
+}
+p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	margin-bottom: 2.5%;
+    margin: 2%;
+}
+h6 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: .75em;
+	margin: 2%;
+    
+}
+a:link, a:active, a:visited {
+	color: #FFF;
+    line-height: 30pt;
+    transition: color .3s;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover {
+	color: #0C3;
+	text-decoration: none;
+}
+aside{
+    background-color: #8e0094;
+    line-height: 16pt;
+    border-radius: 40px;
+    padding: 18px;
+    margin: 12px;
+}
+
+#desktop-nav, #mobile-nav{
+	display:none
+}
+#mobile-nav{
+	display: none;
+    background-color: #8e0094;
+    text-align: center;
+    line-height: 1.2em;
+    font-size: 1.6em;
+}
+#logo{
+    max-width: 500px;
+    padding-left: 50px; /*makes the logo more centered*/
+}
+#logocont{
+    background-color: #8e0094;
+}
+#menu-button{
+    font-size: 2em;
+    color: #FFF;
+    text-align: center;
+    background-color: #8e0094;
+    display: block;
+    transition: color .3s;
+}
+#menu-button:hover{
+    color: #0C3;
+}
+main img{
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #8e0094 12px solid;
+}
+@media screen and (min-width:768px) {
+	#desktop-nav{
+		display: block;
+        background-color: #8e0094;
+	}
+	#menu-button{
+		display: none;
+	}
+	#desktop-nav ul{
+		display:flex;
+		flex-flow:row nowrap;
+		justify-content: space-around;
+        font-size: 1.6em;
+	}
+	#mobile-nav{
+		display:none !important
+	}
+    h1{
+        font-size: 3em;
+        margin: 2% 0 1% 0;
+    }
+    #threefourfive{
+        display: flex;
+        margin-left: 12px;
+    }
+}
